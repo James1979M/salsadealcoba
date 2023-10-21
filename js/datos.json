@@ -1,0 +1,336 @@
+{
+
+	"canciones": [
+
+		{
+			"nombre": "Cali Pachanguero (Moncho Santana con El Grupo Niche)",
+
+			"ruta": "canciones/calipachanguero.mp3"
+		},
+		{
+			"nombre": "Déjala Que Siga (Héctor Lavoe)",
+
+			"ruta": "canciones/dejalaquesiga.mp3"
+		},
+		{
+			"nombre": "Quitate La Máscara (Adalberto Santiago con Ray Barreto)",
+
+			"ruta": "canciones/quitatelamascara.mp3"
+		},
+		{
+			"nombre": "Ana Mile (Jairo Varela con El Grupo Niche)",
+
+			"ruta": "canciones/anamile.mp3"
+		},
+		{
+			"nombre": "Yare (Luisito Carrión con La Ponceña)",
+
+			"ruta": "canciones/yare.mp3"
+		},
+		{
+			"nombre": "Tu Mejor Amiga (Jhony Vasquez con Bobby Valentin)",
+
+			"ruta": "canciones/tumejoramiga.mp3"
+		},
+		{
+			"nombre": "Prende El Fogón (Tito Gomez con La Ponceña)",
+
+			"ruta": "canciones/prendeelfogon.mp3"
+		},
+		{
+			"nombre": "Ingratitudes (Marvin Santigo con Bobby Valentin)",
+
+			"ruta": "canciones/ingratitudes.mp3"
+		},
+		{
+			"nombre": "Ponme El Alcolado Juana (Jerry Rivas con El Gran Combo)",
+
+			"ruta": "canciones/ponmeelalcoladojuana.mp3"
+		},
+		{
+			"nombre": "Balada a Un Loco (Sammy Marrero con La Selecta)",
+
+			"ruta": "canciones/baladaaunloco.mp3"
+		},
+		{
+			"nombre": "Mi Morena (Pablo Lebrón con Hermanos Lebrón)",
+
+			"ruta": "canciones/mimorena.mp3"
+		},
+		{
+			"nombre": "Aquella Mujer (Marvin Santiago con Bobby Valentin)",
+
+			"ruta": "canciones/aquellamujer.mp3"
+		},
+		{
+			"nombre": "Que Es Lo Que Pasa (Cheo Feliciano con Impacto Crea)",
+
+			"ruta": "canciones/queesloquepasa.mp3"
+		},
+		{
+			"nombre": "Hable Con El Señor (Nelson de Jesus con Impacto Crea)",
+
+			"ruta": "canciones/hableconelseñor.mp3"
+		},
+		{
+			"nombre": "Magdalena (Miguel Quintana con la Conspiración)",
+
+			"ruta": "canciones/Magdalena.mp3"
+		},
+		{
+			"nombre": "SeFormo La Rumbantela (Chito Galindo con Javier Vasquez)",
+
+			"ruta": "canciones/seformolarumbantela.mp3"
+		},
+		{
+			"nombre": "La Oportunidad (Ismael Miranda con Larry Harlow)",
+
+			"ruta": "canciones/laoportunidad.mp3"
+		},
+		{
+			"nombre": "La Loteria (Jhonny Vasquez con Andy Harlow)",
+
+			"ruta": "canciones/laloteria.mp3"
+		},
+		{
+			"nombre": "Rumba En El Patio (Yolanda Rivera con La Sonora Ponceña)",
+
+			"ruta": "canciones/rumbaenelpatio.mp3"
+		},
+		{
+			"nombre": "Me Tienes Loco (Ismael Rivera)",
+
+			"ruta": "canciones/metienesloco.mp3"
+		},
+		{
+			"nombre": "Pa' Bravo Yo (Justo Betancourt)",
+
+			"ruta": "canciones/pabravoyo.mp3"
+		},
+		{
+			"nombre": "Tumba Mabo (Luigy Texidor con Sonora Ponceña)",
+
+			"ruta": "canciones/tumbamabo.mp3"
+		},
+		{
+			"nombre": "La Puerta Del Dolor (Sammy Figueroa con Willie Rodriguez)",
+
+			"ruta": "canciones/lapuertadeldolor.mp3"
+		},
+		{
+			"nombre": "Mi Fruto (Ray De La Paz con Louie Ramirez)",
+
+			"ruta": "canciones/mifruto.mp3"
+		},
+		{
+			"nombre": "Esa Que Yo Conocí (Guillo Rivera con Willie Rosario)",
+
+			"ruta": "canciones/esaqueyoconoci.mp3"
+		},
+		{
+			"nombre": "No llores Corazón (Junior Toledo con Willie Rosario)",
+
+			"ruta": "canciones/nollorescorazon.mp3"
+		},
+		{
+			"nombre": "El Camino Equivocado (Axel Martinez con Pedro Conga)",
+
+			"ruta": "canciones/elcaminoequivocado.mp3"
+		},
+		{
+			"nombre": "Ahora Yo Me Rio (Miguelito Ortiz con La Sonora Ponceña)",
+
+			"ruta": "canciones/ahorayomerio.mp3"
+		},
+		{
+			"nombre": "Asi Son (Jerry Rivas con el Gran Combo)",
+
+			"ruta": "canciones/asison.mp3"
+		},
+		{
+			"nombre": "Llegaste Tarde (Pete El Conde Rodriguez con Jhonny Pacheco)",
+
+			"ruta": "canciones/llegastetarde.mp3"
+		},
+		{
+			"nombre": "Se Necesita Rumbero (Oscar de León)",
+
+			"ruta": "canciones/senecesitarumbero.mp3"
+		},
+		{
+			"nombre": "Diselo a El (Paquito Acosta con Tomy Olivencia)",
+
+			"ruta": "canciones/diseloael.mp3"
+		},
+		{
+			"nombre": "Loco (Loco Hector Lavoe)",
+
+			"ruta": "canciones/sexo.mp3"
+		},
+		{
+			"nombre": "Sexo (Junior Gonsalez con Larry Harlow)",
+
+			"ruta": "canciones/sexo.mp3"
+		},
+		{
+			"nombre": "Tengo Testigo (Pablo Lebrón con Hermanos Lebrón)",
+
+			"ruta": "canciones/tengotestigo.mp3"
+		},
+		{
+			"nombre": "Siempre Estuvimos Aqui (Pellin Rodriguez con el Combo Del Ayer)",
+
+			"ruta": "canciones/siempreestuvimosaqui.mp3"
+		},
+		{
+			"nombre": "El Viento (Robert Jeand'or con Los Hijos Del Rey)",
+
+			"ruta": "canciones/elviento.mp3"
+		},
+		{
+			"nombre": "Papel de Payaso (Marvin Santiago con Bobby Valentin)",
+
+			"ruta": "canciones/papeldepayaso.mp3"
+		},
+		{
+			"nombre": "Indestructible (Tito Allen con Ray Barreto)",
+
+			"ruta": "canciones/indestructible.mp3"
+		},
+		{
+			"nombre": "Borinqueneando (Ismael Rivera)",
+
+			"ruta": "canciones/Borinqueneando.mp3"
+		},
+		{
+			"nombre": "Naci Moreno (Luigi Texidor con Bobby Valentin)",
+
+			"ruta": "canciones/nacimoreno.mp3"
+		},
+		{
+			"nombre": "Guerrera (Jose Bello)",
+
+			"ruta": "canciones/Guerrera.mp3"
+		},
+		{
+			"nombre": "Desengaños De La Vida (Alma Latina)",
+
+			"ruta": "canciones/desengañosdelavida.mp3"
+		},
+		{
+			"nombre": "Guaguanco Del Adios (Papo Sanchez con Apolo Sound)",
+
+			"ruta": "canciones/guaguancodeladios.mp3"
+		},
+		{
+			"nombre": "Oye Mi Ritmo (Angel Canales)",
+
+			"ruta": "canciones/oyemiritmo.mp3"
+		},
+		{
+			"nombre": "Asi Vivo Yo (Orquesta Colón)",
+
+			"ruta": "canciones/asivivoyo.mp3"
+		},
+		{
+			"nombre": "Chupa el Piruli (Frankie Dante con la Flamboyan)",
+
+			"ruta": "canciones/chupaelpiruli.mp3"
+		},
+		{
+			"nombre": "Soy Profesional (Justo Betancourt)",
+
+			"ruta": "canciones/soyprofesional.mp3"
+		},
+		{
+			"nombre": "Esposa y Una Querida (Pablo Lebrón con Hermanos Lebrón)",
+
+			"ruta": "canciones/esposayunaquerida.mp3"
+		},
+		{
+			"nombre": "Hay Craneo (Tito Rodriguez)",
+
+			"ruta": "canciones/haycraneo.mp3"
+		},
+		{
+			"nombre": "Consuelo (Jose Feliciano y Chamaco Rivera)",
+
+			"ruta": "canciones/consuelo.mp3"
+		},
+		{
+			"nombre": "Ublabadu (Hector Lavoe)",
+
+			"ruta": "canciones/Ublabadu.mp3"
+		},
+		{
+			"nombre": "Si el Mar Se Volviera Ron (Franky Vasquez con Latin Giants)",
+
+			"ruta": "canciones/sielmarsevolvieraron.mp3"
+		}, 
+		{
+			"nombre": "Primera Vez (Carlitos Ramirez con la Selecta)",
+
+			"ruta": "canciones/primeravez.mp3"
+		}, 
+		{
+			"nombre": "El Hombre Increible (Marvin Santiago)",
+
+			"ruta": "canciones/elhombreincreible.mp3"
+		},  
+		{
+		"nombre": "La vida (Wilmer Cobos con Naty y su Orquesta)",
+		"ruta": "canciones/lavida.mp3"
+	  },
+	  {
+		"nombre": "Mi Testamento (Luigy Texidor)",
+		"ruta": "canciones/mitestamento.mp3"
+		},
+	  {
+		"nombre": "Eres Mi Sangre (Carlos Santos)",
+		"ruta": "canciones/eresmisangre.mp3"
+		},
+	  {
+		"nombre": "Suficiente de Ti (Junior Toledo)",
+		"ruta": "canciones/SuficienteDeTiJunTole.mp3"
+	  },
+	  {
+		"nombre": "Mentira (Cheo Feliciano)",
+		"ruta": "canciones/CheoFelicianoMentira.mp3"
+	  },
+  
+	  {
+		"nombre": "Debut de Moda (Jorge Melendez con Orquesta Exodo)",
+		"ruta": "canciones/debutdemoda.mp3"
+	  },
+	  {
+		"nombre": "Señora Tristeza (Franky Hernandez con Impacto Crea)",
+		"ruta": "canciones/señoratristeza.mp3"
+		},
+	  {
+		"nombre": "Para mi Esas Cosas (Papo Sanchez con Apolo Sound)",
+		"ruta": "canciones/paramiesascosas.mp3"
+	  },
+	  {
+		"nombre": "Escarcha (Hector Lavoe)",
+		"ruta": "canciones/escarcha.mp3"
+	  },
+	  
+	  {
+		"nombre": "Bam Bam (Joe Arroyo)",
+		"ruta": "canciones/bambam.mp3"
+	  },
+	  {
+		"nombre": "Borinquen (Yolanda Rivera con Sonora Ponceña)",
+		"ruta": "canciones/borinquen.mp3"
+		},
+	  {
+		"nombre": "La Realidad (Franky Hernandez con Boby Valentin)",
+		"ruta": "canciones/larealidad.mp3"
+	  },
+	  {
+		"nombre": "Lo que Dijo la Gitana (Ismael Rivera)",
+		"ruta": "canciones/loquedijolagitana.mp3"
+	  }
+	  
+	]
+  }
