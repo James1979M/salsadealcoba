@@ -3,6 +3,31 @@
 	"canciones": [
 
 		{
+			"nombre": "A mi (Cano Estremera)",
+
+			"ruta": "canciones/ami.mp3"
+		},
+		{
+			"nombre": "Ven Devorame Otra Vez (Lalo Rodriguez)",
+
+			"ruta": "canciones/vendevorameotravez.mp3"
+		},
+		{
+			"nombre": "Ni Un Paso Atras (Rafu Garner)",
+
+			"ruta": "canciones/niunpasoatras.mp3"
+		},
+		{
+			"nombre": "Estar Enamorado (Pedro Brull)",
+
+			"ruta": "canciones/estarenamorado.mp3"
+		},
+		{
+			"nombre": "Sed De Amarte (Hector Tricoche)",
+
+			"ruta": "canciones/seddeamarte.mp3"
+		},
+		{
 			"nombre": "Vendedora De Amor (Moncho Santana)",
 
 			"ruta": "canciones/vendedoradeamor.mp3"
