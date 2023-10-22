@@ -3,6 +3,46 @@
 	"canciones": [
 
 		{
+			"nombre": "Se Parecio Tanto a Ti (Charlie Cardona Con el Grupo Niche)",
+
+			"ruta": "canciones/separeciotantoati.mp3"
+		},
+		{
+			"nombre": "La Cita Empezar (Galy Galiano)",
+
+			"ruta": "canciones/lacita.mp3"
+		},
+		{
+			"nombre": "Tu Amante (Paquito Guzman)",
+
+			"ruta": "canciones/tuamante.mp3"
+		},
+		{
+			"nombre": "No Se Por Donde Empezar (Rubén Sierra)",
+
+			"ruta": "canciones/nosepordondeempezar.mp3"
+		},
+		{
+			"nombre": "Cuando Llegues a Entender (Maelo Marcano)",
+
+			"ruta": "canciones/cuandolleguesaentender.mp3"
+		},
+		{
+			"nombre": "Como Amantes (Manix Martinez Con la Ponceña)",
+
+			"ruta": "canciones/comoamantes.mp3"
+		},
+		{
+			"nombre": "El Seductor (Bazil Alexander)",
+
+			"ruta": "canciones/elseductor.mp3"
+		},
+		{
+			"nombre": "Como Un Volcán (Oscar D'Leon)",
+
+			"ruta": "canciones/comounvolcan.mp3"
+		},
+		{
 			"nombre": "A mi (Cano Estremera)",
 
 			"ruta": "canciones/ami.mp3"
