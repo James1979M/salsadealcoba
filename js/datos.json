@@ -3,6 +3,11 @@
 	"canciones": [
 
 		{
+			"nombre": "Amor de Habitación (Joselo Gerena Con Keko Hernandez)",
+
+			"ruta": "canciones/amordehabitacion.mp3"
+		},
+		{
 			"nombre": "Tocame (Paquito Barón Con la Bronko)",
 
 			"ruta": "canciones/tocame.mp3"
