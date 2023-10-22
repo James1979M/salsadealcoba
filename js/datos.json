@@ -3,6 +3,21 @@
 	"canciones": [
 
 		{
+			"nombre": "Tocame (Paquito Barón Con la Bronko)",
+
+			"ruta": "canciones/tocame.mp3"
+		},
+		{
+			"nombre": "El Amor (Toñito Ledee Con La Ponceña)",
+
+			"ruta": "canciones/elamor.mp3"
+		},
+		{
+			"nombre": "Quiero Llenarte (Frankie Ruiz)",
+
+			"ruta": "canciones/quierollenarte.mp3"
+		},
+		{
 			"nombre": "Se Parecio Tanto a Ti (Charlie Cardona Con el Grupo Niche)",
 
 			"ruta": "canciones/separeciotantoati.mp3"
