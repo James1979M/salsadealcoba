@@ -3,6 +3,26 @@
 	"canciones": [
 
 		{
+			"nombre": "Embrujo De Amor (Adriana Chamorro Con la Orquesta Canela)",
+
+			"ruta": "canciones/embrujodeamor.mp3"
+		},
+		{
+			"nombre": "Entregate (Roberto Lugo)",
+
+			"ruta": "canciones/entregate.mp3"
+		},
+		{
+			"nombre": "Pruebame (Adalberto Santiago)",
+
+			"ruta": "canciones/pruebame.mp3"
+		},
+		{
+			"nombre": "La Noche (Pupy Santiago)",
+
+			"ruta": "canciones/lanoche.mp3"
+		},
+		{
 			"nombre": "Amor de Habitación (Joselo Gerena Con Keko Hernandez)",
 
 			"ruta": "canciones/amordehabitacion.mp3"
