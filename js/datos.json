@@ -3,6 +3,26 @@
 	"canciones": [
 
 		{
+			"nombre": "A Que No Le Cuentas (Jhony Vasquez Con Bobby Valentin)",
+
+			"ruta": "canciones/aquenolecuentas.mp3"
+		},
+		{
+			"nombre": "Todo Me Huele a Ti (Pedro Arrollo Con La orquesta de Rubby Haddock)",
+
+			"ruta": "canciones/todomehueleati.mp3"
+		},
+		{
+			"nombre": "A Fuego Lento (Anthony Cruz Con La Orquesta de Mario Ortiz)",
+
+			"ruta": "canciones/afuegolento.mp3"
+		},
+		{
+			"nombre": "Te Quiero (Domingo Quiñonez)",
+
+			"ruta": "canciones/tequiero.mp3"
+		},
+		{
 			"nombre": "Embrujo De Amor (Adriana Chamorro Con la Orquesta Canela)",
 
 			"ruta": "canciones/embrujodeamor.mp3"
