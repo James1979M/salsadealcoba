@@ -3,6 +3,11 @@
 	"canciones": [
 
 		{
+			"nombre": "Te Amo Te Extraño (Carlitos Brito Con Guayacan)",
+
+			"ruta": "canciones/teamoteextraño.mp3"
+		},
+		{
 			"nombre": "A Que No Le Cuentas (Jhony Vasquez Con Bobby Valentin)",
 
 			"ruta": "canciones/aquenolecuentas.mp3"
