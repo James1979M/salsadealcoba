@@ -3,6 +3,36 @@
 	"canciones": [
 
 		{
+			"nombre": "Vamos A Darnos Tiempo (Cheo Andujar Con La Orquesta Chaney)",
+
+			"ruta": "canciones/vamosadarnostiempo.mp3"
+		},
+		{
+			"nombre": "Detalles (Roberto Blades Con La Inmensidad)",
+
+			"ruta": "canciones/detalles.mp3"
+		},
+		{
+			"nombre": "Página De Amor (Tito Gomez)",
+
+			"ruta": "canciones/paginadeamor.mp3"
+		},
+		{
+			"nombre": "En La Intimidad (Willie Gonzalez)",
+
+			"ruta": "canciones/enlaintimidad.mp3"
+		},
+		{
+			"nombre": "Noche De Boda (Tito Rojas Con La Puerto Rican Power)",
+
+			"ruta": "canciones/nochedeboda.mp3"
+		},
+		{
+			"nombre": "Amame (Jerry Rivas Con El Gran Combo)",
+
+			"ruta": "canciones/Amame.mp3"
+		},
+		{
 			"nombre": "Luna Negra (Rey Ruiz)",
 
 			"ruta": "canciones/lunanegra.mp3"
