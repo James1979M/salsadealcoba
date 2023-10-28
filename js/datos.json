@@ -3,6 +3,36 @@
 	"canciones": [
 
 		{
+			"nombre": "Luna Negra (Rey Ruiz)",
+
+			"ruta": "canciones/lunanegra.mp3"
+		},
+		{
+			"nombre": "Oh Que Será (Willie Colón)",
+
+			"ruta": "canciones/ohquesera.mp3"
+		},
+		{
+			"nombre": "Mal Herido (Gilberto Santa Rosa)",
+
+			"ruta": "canciones/malherido.mp3"
+		},
+		{
+			"nombre": "Un Amante Como Yo (Carlos Romero Con La Suprema Corte)",
+
+			"ruta": "canciones/unamantecomoyo.mp3"
+		},
+		{
+			"nombre": "No Me Olvidaras (Kenny Cruz Con Concepto Latino)",
+
+			"ruta": "canciones/nomeolvidaras.mp3"
+		},
+		{
+			"nombre": "Amar Amando (Roberto Davila Con Mario Ortiz)",
+
+			"ruta": "canciones/amaramando.mp3"
+		},
+		{
 			"nombre": "Te Amo Te Extraño (Carlitos Brito Con Guayacan)",
 
 			"ruta": "canciones/teamoteextraño.mp3"
