@@ -3,6 +3,11 @@
 	"canciones": [
 
 		{
+			"nombre": "Después De Todo (Jenisel Valdes Con La Van Van)",
+
+			"ruta": "canciones/despuesdetodo.mp3"
+		},
+		{
 			"nombre": "Vamos A Darnos Tiempo (Cheo Andujar Con La Orquesta Chaney)",
 
 			"ruta": "canciones/vamosadarnostiempo.mp3"
@@ -10,7 +15,7 @@
 		{
 			"nombre": "Detalles (Roberto Blades Con La Inmensidad)",
 
-			"ruta": "canciones/detalles.mp3"
+			"ruta": "canciones/Detalles.mp3"
 		},
 		{
 			"nombre": "Página De Amor (Tito Gomez)",
