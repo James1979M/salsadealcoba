@@ -3,6 +3,41 @@
 	"canciones": [
 
 		{
+			"nombre": "Piel a Piel  (Ricky Ramos con Rubby Haddock)",
+
+			"ruta": "canciones/pielapiel.mp3"
+		},
+		{
+			"nombre": "Queriendo(Pedro Arroyo)",
+
+			"ruta": "canciones/queriendo.mp3"
+		},
+		{
+			"nombre": "Tú Como Estas  (Domingo Quiñonez)",
+
+			"ruta": "canciones/tucomoestas.mp3"
+		},
+		{
+			"nombre": "Ser Amantes  (Paquito Guzman)",
+
+			"ruta": "canciones/seramantes.mp3"
+		},
+		{
+			"nombre": "Hacer el Amor  (Hector Tricoche)",
+
+			"ruta": "canciones/hacerelamor.mp3"
+		},
+		{
+			"nombre": "Corazón en Blanco  (Roberto Lugo)",
+
+			"ruta": "canciones/corazonenblanco.mp3"
+		},
+		{
+			"nombre": "Tu Quisiste  (Cheo Andujar con Chaney)",
+
+			"ruta": "canciones/tuquisiste.mp3"
+		},
+		{
 			"nombre": "Fuego  (Kittin Santiago con Isla Bonita)",
 
 			"ruta": "canciones/fuego.mp3"
