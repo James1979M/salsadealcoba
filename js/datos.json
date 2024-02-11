@@ -3,6 +3,61 @@
 	"canciones": [
 
 		{
+			"nombre": "Fuego  (Kittin Santiago con Isla Bonita)",
+
+			"ruta": "canciones/fuego.mp3"
+		},
+		{
+			"nombre": "No Pude Evitarlo  (Pedro Brull con la Mulenze)",
+
+			"ruta": "canciones/nopudeevitarlo.mp3"
+		},
+		{
+			"nombre": "Fuego  (Kittin Santiago con Isla Bonita)",
+
+			"ruta": "canciones/fuego.mp3"
+		},
+		{
+			"nombre": "Imaginate Mis Manos  (Moncho Santana)",
+
+			"ruta": "canciones/imaginate.mp3"
+		},
+		{
+			"nombre": "Me Quiero Quedar  (Luigui Valentin con Mario Ortiz)",
+
+			"ruta": "canciones/mequieroquedar.mp3"
+		},
+		{
+			"nombre": "Busca Por Dentro  (Charlie Cardona con el Grupo Niche)",
+
+			"ruta": "canciones/buscapordentro.mp3"
+		},
+		{
+			"nombre": "Aprenderé  (Max Torres)",
+
+			"ruta": "canciones/aprendere.mp3"
+		},
+		{
+			"nombre": "Me Haces Falta  (Primy cruz)",
+
+			"ruta": "canciones/mehacesfalta.mp3"
+		},
+		{
+			"nombre": "Amame en Cámara Lenta  (Cano Estremera)",
+
+			"ruta": "canciones/amameencamaralenta.mp3"
+		},
+		{
+			"nombre": "La Noche mas Linda  (Adalberto Santiago)",
+
+			"ruta": "canciones/lanochemaslinda.mp3"
+		},
+		{
+			"nombre": "Deseandote (Frankie Ruiz)",
+
+			"ruta": "canciones/deseandote.mp3"
+		},
+		{
 			"nombre": "Después De Todo (Jenisel Valdes Con La Van Van)",
 
 			"ruta": "canciones/despuesdetodo.mp3"
