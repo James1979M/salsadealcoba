@@ -163,7 +163,7 @@ h2{
 }
 h3{
     color: white;
-    padding-top: 5px;
+    padding: 5px;
 }
 .item1{
     /* grid-column: 1 / span 2 ;
