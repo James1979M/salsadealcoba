@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="language" content="spanish">
+    <meta name="copyright" content="6097129.github.io/jamesalsa/index.html">
+    <meta name="author" content="James Marin">
+    <meta name="audience" content="all">
+    <link rel="icon" type="image/x-icon" 
+    href="imagenes/salsa.jpg">
+    <link rel="stylesheet" href="css/canciones.css">
+    <title>Salsa De Alcoba</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">
+        <img src='imagenes/logo.gif' class="logo-img">
+        <h1 class="logo-nombre">J@mes</h1>
+    </div>
+    
+    <nav class="nav">
+      <button class="nav-toggle"><img src='imagenes/burger.png' class="nav-burger"></button>
+        <ul class="nav-menu">
+         
+            <li id="li-1"class="nav-menu-item"><a class="nav-link"href="index.html">Inicio</a></li>
+            <li id="li-2"class="nav-menu-item"><a class="nav-link"href="https://6097129.github.io/jamesalsa/index.html">Salsa Brava</a></li>
+            <li id="li-3"class="nav-menu-item"><a class="nav-link"href="imagenes.html">Imágenes</a></li>
+            <li id="li-4"class="nav-menu-item"><a class="nav-link"href="#">Inicio Sesión</a></li>
+            <li id="li-5"class="nav-menu-item"><a class="nav-link" id="abrir-modal">Contacto</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <!--Mensaje del boton contacto modal-->
+  <dialog id="modal" class="mensaje">
+    <h3 class="contacto">Contacto</h3><hr>
+    <p>🤵James Marin</p><br>
+    <p>📧jamaweb20@gmail.com</p><hr>
+
+    <button class="cerrar"id="cerrar-modal">Cerrar</button>
+  </dialog>
+   <!--Fin Mensaje del boton contacto modal-->
+
+  <h1 class="titulo">Buscador de Canciones</h1>
+    
+  <div class="input">
+      <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
+  </div>
+  
+  <div class="cont-canciones"><!--En este div se muetra el contenido del json-->
+      <ul id="listamusica"></ul>
+  </div>  
+
+    <footer>
+
+      <p>James Marin Desarrollo Web</p>
+        <p>Comparte la música</p>
+        
+    </footer>
+  <script src="js/buscador.js"></script>
+  <script src="js/menu_modal.js"></script>
+</body>
+</html>
