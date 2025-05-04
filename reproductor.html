@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="imagenes/salsa.jpg">
+  <link rel="stylesheet" href="css/reproductor.css">
+  <title>Reproductor de Música</title>
+</head>
+
+<body>
+  <div class="player">
+    <h1>J@mes S@lsa</h1>
+    
+    <div class="controls">
+      <button id="prev">⏮️</button>
+      <button id="play">▶️</button>
+      <button id="next">⏭️</button>
+      <button class="btn-aleatorio" id="random">🔀</button><!--Botòn aleatorio-->
+    </div>
+    <div class="progress-container">
+      <input type="range" id="progress-bar" min="0" max="100" value="0" />
+      <p id="time-info">00:00 / 00:00</p>
+    </div>
+    <p id="current-song">Cargando canción...</p>
+    <a class="ir-blog" href="index.html">Volver al Blog👈</a>
+    <div class="form">
+      <form id="formulario-sugerencia">
+        <!-- <label for="cancion">Nombre de la canción:</label> -->
+        <input type="text" id="cancion" name="cancion" placeholder="Sugiere una canción">
+    
+        <label for="artista"></label>
+        <input type="text" id="artista" name="artista" placeholder="Orquesta">
+    
+        <button type="submit">Enviar Sugerencia</button>
+        <div id="mensaje"></div>
+      </form>
+    </div>
+    
+  </div>
+  <script src="js/reproductor.js"></script>
+  <script src="js/form-sugerencia.js"></script>
+</body>
+</html>
