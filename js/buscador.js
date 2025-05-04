@@ -46,30 +46,37 @@ document.addEventListener('keyup', e=>{
         cargarDatos(e.target.value);
       }
   })
+  //Datos Json pàgina imagenes
+console.log('archivo buscador.js cargado correctamente');
 
-  // CREATE TABLE IF NOT EXISTS `empresa`.`permisos` (
-  //   `id` INT NOT NULL AUTO_INCREMENT,
-  //   `usuario_id` INT NOT NULL,
-  //   `tipo_usuario` INT NOT NULL,
-  //   `aplicacion_id` INT NOT NULL,
-  //   PRIMARY KEY (`id`),
-  //   INDEX `ix_usuario_id` USING BTREE (`usuario_id`) INVISIBLE,
-  //   INDEX `ix_tipo_usario_id` USING BTREE (`tipo_usuario`) VISIBLE,
-  //   INDEX `ix_aplicacion_id` USING BTREE (`aplicacion_id`) VISIBLE,
-  //   CONSTRAINT `fk_tipo_usuario_id`
-  //     FOREIGN KEY ()
-  //     REFERENCES `empresa`.`tipo_usuarios` ()
-  //     ON DELETE CASCADE
-  //     ON UPDATE CASCADE,
-  //   CONSTRAINT `fk_usuario_id`
-  //     FOREIGN KEY ()
-  //     REFERENCES `empresa`.`usuarios` ()
-  //     ON DELETE CASCADE
-  //     ON UPDATE CASCADE,
-  //   CONSTRAINT `fk_aplicacion_id`
-  //     FOREIGN KEY ()
-  //     REFERENCES `empresa`.`aplicaciones` ()
-  //     ON DELETE CASCADE
-  //     ON UPDATE CASCADE)
-  // ENGINE = InnoDB
-  // COMMENT = 'SHOW TABLES\n'
+const datafile = 'js/datos.json';
+
+//Selecciòn elementos del Dom
+const cantantesMusic = document.getElementById('imagen');
+
+//Funciòn para cargar datos del archivo
+async function loadData(){
+    try{
+        //Carga del archivo json
+        const response = await fetch('js/datos.json');
+        if (!response.ok){
+            throw new Error('No se pudo cargar el archivo');
+        }
+        const data = await response.json();
+
+        //Cargar las imagenes dinamicamente
+        data.cantantesmusic.forEach(cantante => {
+            const cantanteItem = document.createElement('div');
+            cantanteItem.classList.add('cantante-item');
+            cantanteItem.innerHTML = `
+                <h3>${cantante.titulo}</h3>
+                <img class="img-item" src="${cantante.img}">
+            `;
+            cantantesMusic.appendChild(cantanteItem);
+        })
+    } catch (error){
+        console.log('Error al cargar los datos:', error);
+      }
+    }
+    //Ejecutar la funciòn al cargar la pàgina
+    document.addEventListener('DOMContentLoaded', loadData);

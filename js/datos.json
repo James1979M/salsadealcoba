@@ -3,6 +3,142 @@
 	"canciones": [
 
 		{
+			"nombre": "Salsa del Amor  (Wilson Manyoma)",
+
+			"ruta": "canciones/salsadelamor.mp3"
+		},
+		{
+			"nombre": "Si No Fuera Por Ti  (Alex D` Castro)",
+
+			"ruta": "canciones/sinofueraporti.mp3"
+		},
+		{
+			"nombre": "Imposible Amor  (Frankie Ruiz)",
+
+			"ruta": "canciones/Imposibleamor.mp3"
+		},
+		{
+			"nombre": "Ya Lo Ves  (Anthony Cruz)",
+
+			"ruta": "canciones/yaloves.mp3"
+		},
+		{
+			"nombre": "No Tires La Primera Piedra  (Hector Tricoche)",
+
+			"ruta": "canciones/notireslaprimerapiedra.mp3"
+		},
+		{
+			"nombre": "Insaciable  (Eddie Santiago)",
+
+			"ruta": "canciones/insaciable.mp3"
+		}, 
+		{
+			"nombre": "Seda  (Willie Gonzales)",
+
+			"ruta": "canciones/seda.mp3"
+		},
+		{
+			"nombre": "Si Me Dejas Amarte  (Roberto Lugo)",
+
+			"ruta": "canciones/simedejasamarte.mp3"
+		},
+		{
+			"nombre": "Estremeceme  (Oswaldo Roman con La Puerto Rican Power)",
+
+			"ruta": "canciones/Estremeceme.mp3"
+		},
+		{
+			"nombre": "No Quiero No Puedo  (Lalo Rodriguez)",
+
+			"ruta": "canciones/noquieronopuedo.mp3"
+		},
+		{
+			"nombre": "El Amor me lo Compras Amí  (Pupy Santiago)",
+
+			"ruta": "canciones/elamormelocomprasami.mp3"
+		},
+		{
+			"nombre": "Y es Que Llegas Tu (Paquito Guzmán)",
+
+			"ruta": "canciones/yesquellegastetu.mp3"
+		},
+		{
+			"nombre": "Para Amarte Ahora  (Oswaldo Roman con La Puerto Rican Power)",
+
+			"ruta": "canciones/paraamarteahora.mp3"
+		},
+		{
+			"nombre": "Apago La Luz  (Hildemaro)",
+
+			"ruta": "canciones/apagolaluz.mp3"
+		},
+		{
+			"nombre": "Eres La Unica  (Nino Segarra)",
+
+			"ruta": "canciones/ereslaunica.mp3"
+		},
+		{
+			"nombre": "Alcoba  (Pedro Arroyo)",
+
+			"ruta": "canciones/Alcoba.mp3"
+		},
+		
+		{
+			"nombre": "Tú no le Amas  (Luis Henrrique)",
+
+			"ruta": "canciones/tunoleamas.mp3"
+		},
+		{
+			"nombre": "No Hieras Mi Vida  (Jerry Rivera)",
+
+			"ruta": "canciones/nohierasmivida.mp3"
+		},
+		{
+			"nombre": "Ella Es  (Tony Vega)",
+
+			"ruta": "canciones/ellaes.m4a"
+		},
+		{
+			"nombre": "Balada Para una Mujer Enamorada  (Roberto Lugo)",
+
+			"ruta": "canciones/baladaparamujer.m4a"
+		},
+		{
+			"nombre": "Siempre Sere  (Tito Rojas)",
+
+			"ruta": "canciones/elamormasbonito.m4a"
+		},
+		{
+			"nombre": "El Amor mas Bonito  (Tito Nieves)",
+
+			"ruta": "canciones/elamormasbonito.m4a"
+		},
+		{
+			"nombre": "Noche de Mar  (Maelo Ruiz con Pedro Conga)",
+
+			"ruta": "canciones/nochedemar.m4a"
+		},
+		{
+			"nombre": "He Decidido Olvidarte  (Pedro Arroyo)",
+
+			"ruta": "canciones/hedecididoolvidarte.m4a"
+		},
+		{
+			"nombre": "Quiero Volver  (Maelo Ruiz con Pedro Conga)",
+
+			"ruta": "canciones/quierovolver.m4a"
+		},
+		{
+			"nombre": "Toda la Noche Oliendo a Ti  (Gilberto Santa Rosa)",
+
+			"ruta": "canciones/todalanoche.m4a"
+		},
+		{
+			"nombre": "La Escena  (Victor Manuel)",
+
+			"ruta": "canciones/laescena.m4a"
+		},
+		{
 			"nombre": "Piel a Piel  (Ricky Ramos con Rubby Haddock)",
 
 			"ruta": "canciones/pielapiel.m4a"
@@ -297,11 +433,80 @@
 
 			"ruta": "canciones/hayalgoenella.mp3"
 		},
+		{
+		  "nombre": "Cabalgata (Eddy Santiago)",
+
+		  "ruta": "canciones/cabalgata.mp3"
+		}
 		
-	  {
-		"nombre": "Cabalgata (Eddy Santiago)",
-		"ruta": "canciones/cabalgata.mp3"
-	  }
 	  
+	],
+
+	"cantantesmusic":[
+		{
+		"titulo": "Hector Lavoe",
+		"img": "imagenes/hector.jpeg"
+		},
+		{
+		"titulo": "James Marin",
+		"img": "imagenes/jamesm.jpg"
+		},
+		{
+		"titulo": "Ismael Miranda",
+		"img": "imagenes/ismaelmi.jpg"
+		},
+		{
+		"titulo": "Adalberto Santiago",
+		"img": "imagenes/adalberto.jpeg"
+		},
+		{
+		"titulo": "Cheo Feliciano",
+		"img": "imagenes/cheo.jpeg"
+		},
+		{
+		"titulo": "El Conde Rodriguez",
+		"img": "imagenes/conde.jpeg"
+		},
+		{
+		"titulo": "Frankie Hernandez",
+		"img": "imagenes/franky.jpeg"
+		},
+		{
+		"titulo": "Ismael Rivera",
+		"img": "imagenes/ismaelri.jpeg"
+		},
+		{
+		"titulo": "Joe Arroyo",
+		"img": "imagenes/joe.jpg"
+		},
+		{
+		"titulo": "Junior Toledo",
+		"img": "imagenes/junior.jpg"
+		},
+		{
+		"titulo": "Luigy Texidor",
+		"img": "imagenes/luigy.jpg"
+		},
+		{
+		"titulo": "Marvin Santiago",
+		"img": "imagenes/marvin.jpg"
+		},
+		{
+		"titulo": "Pablo Lebrón",
+		"img": "imagenes/pablo.jpg"
+		},
+		{
+		"titulo": "Tito Gomez",
+		"img": "imagenes/titogo.jpg"
+		},
+		{
+		"titulo": "Ruben Blades",
+		"img": "imagenes/ruben.png"
+		},
+		{
+		"titulo": "Ismael Quintana",
+		"img": "imagenes/ismaelqui.png"
+		}
 	]
   }
+  
