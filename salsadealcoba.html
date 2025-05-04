@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="Lo6K_MLkI_1pE3fGYYqichMfhhI_t3ixmp7sguxn_Gs" />
     <meta name="language" content="spanish">
-    <meta name="copyright" content="6097129.github.io/jamesalsa/index.html">
+    <meta name="copyright" content="https://jamesalsa.netlify.app/">
     <meta name="author" content="James Marin">
     <meta name="audience" content="all">
+    <meta name="description" content="Esta página es para los amantes de la buena salsa, salsa brava y salsa de alcoba.">
+    <meta name="keywords" content="Salsa de alcoba, salsa brava, que viva la salsa, canciones, música, Netlify">
+    <meta name="google-site-verification" content="Lo6K_MLkI_1pE3fGYYqichMfhhI_t3ixmp7sguxn_Gs" />
     <link rel="icon" type="image/x-icon" 
     href="imagenes/salsa.jpg">
     <link rel="stylesheet" href="css/canciones.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script><!--Script del mensaje modal, linea 10 archivo js-->
     <title>Salsa De Alcoba</title>
 </head>
 
@@ -17,50 +22,67 @@
 
   <header class="header">
     <div class="logo">
-        <img src='imagenes/logo.gif' class="logo-img">
+      <img src='imagenes/logo.gif' class="logo-img" alt="logo">
+
+      <a class="nombre-logo" href="inicio.html">
         <h1 class="logo-nombre">J@mes</h1>
+      </a>
+
     </div>
     
     <nav class="nav">
-      <button class="nav-toggle"><img src='imagenes/burger.png' class="nav-burger"></button>
+      <button class="nav-toggle"><img src='imagenes/burger.png' class="nav-burger" alt="logo"></button>
         <ul class="nav-menu">
          
-            <li id="li-1"class="nav-menu-item"><a class="nav-link"href="index.html">Inicio</a></li>
-            <li id="li-2"class="nav-menu-item"><a class="nav-link"href="https://6097129.github.io/jamesalsa/salsabrava.html">Salsa Brava</a></li>
+            <li id="li-1"class="nav-menu-item"><a class="nav-link"href="reproductor.html">Reproductor</a></li>
+            <li id="li-2"class="nav-menu-item"><a class="nav-link"href="https://jamessalsa.netlify.app/salsabrava.html">Salsa Brava</a></li>
             <li id="li-3"class="nav-menu-item"><a class="nav-link"href="imagenes.html">Imágenes</a></li>
-            <li id="li-4"class="nav-menu-item"><a class="nav-link"href="#">Inicio Sesión</a></li>
-            <li id="li-5"class="nav-menu-item"><a class="nav-link" id="abrir-modal">Contacto</a></li>
+            <li id="li-5"class="nav-menu-item"><a class="nav-link" id='abrir-modal'>Contacto</a></li>
         </ul>
     </nav>
   </header>
 
-  <!--Mensaje del boton contacto modal-->
-  <dialog id="modal" class="mensaje">
-    <h3 class="contacto">Contacto</h3><hr>
-    <p>🤵James Marin</p><br>
-    <p>📧jamaweb20@gmail.com</p><hr>
-
-    <button class="cerrar"id="cerrar-modal">Cerrar</button>
-  </dialog>
-   <!--Fin Mensaje del boton contacto modal-->
-
-  <h1 class="titulo">Buscador de Canciones</h1>
+  <main>
+     
+    <h1 class="titulo">Buscador de Canciones</h1>
+      
+    <div class="input">
+        <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
+    </div>
     
-  <div class="input">
-      <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
+    <div class="cont-canciones"><!--En este div se muestra el contenido del json-->
+        <ul id="listamusica" class="listamusica"></ul>
+    </div>  
+
+    <div class="btn-salsa">
+      <a href="https://jamessalsa.netlify.app/salsabrava.html">Ir a la pàgina Salsa Brava</a>
+    </div>
+  </main>
+  <!--Contenedor del formulario-->
+  <div class="container-formu">
+    
+    <form id="formulario-sugerencia">
+      <h3 class="titulo-form">Sugiere una Canción 🎶</h3><br>
+        <label for="cancion">Nombre de la canción:</label>
+        <input class="input-cancion" type="text" id="cancion" name="cancion">
+    
+        <label for="artista">Artista:</label>
+        <input class="input-artista" type="text" id="artista" name="artista">
+    
+        <button type="submit">Enviar Sugerencia</button>
+        <div id="mensaje"></div>
+    </form>
+    
   </div>
-  
-  <div class="cont-canciones"><!--En este div se muetra el contenido del json-->
-      <ul id="listamusica"></ul>
-  </div>  
+  <footer>
 
-    <footer>
-
-      <p>James Marin Desarrollo Web</p>
-        <p>Comparte la música</p>
+    <p>James Marin Desarrollo Web</p>
+    <p>Comparte la música</p>
         
-    </footer>
+  </footer>
+        
   <script src="js/buscador.js"></script>
+  <script src="js/form-sugerencia.js"></script>
   <script src="js/menu_modal.js"></script>
 </body>
 </html>
