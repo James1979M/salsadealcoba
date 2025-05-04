@@ -1,0 +1,152 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .player {
+    text-align: center;
+    background: #268eef;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(238, 217, 217, 0.5);
+    width: 90%;
+    max-width: 400px; /* Tamaño máximo del reproductor */
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Botones */
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #282828;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 5px;
+  }
+  
+  button:hover {
+    background-color: #1db954;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Barra de progreso */
+  .progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  #progress-bar {
+    width: 100%;
+    appearance: none;
+    height: 5px;
+    background: #282828;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  #progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #1db954;
+    cursor: pointer;
+  }
+  
+  #progress-bar::-moz-range-thumb {
+    width: 10px;
+    height: 10;
+  }
+  .ir-blog{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+  }
+  /* Estilos generales del formulario */
+
+  .form{
+    margin-top: 5px;
+  }
+#formulario-sugerencia{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para los párrafos */
+#formulario-sugerencia p {
+  margin-bottom: 15px;
+}
+
+/* Estilos para las etiquetas */
+#formulario-sugerencia label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos para los campos de entrada */
+#formulario-sugerencia input[type="text"],
+#formulario-sugerencia input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Estilos para el botón de envío */
+#formulario-sugerencia button {
+  width: 97%;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #07407d;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para el botón de envío */
+#formulario-sugerencia button:hover {
+  background-color: #0056b3;
+}
+.msg-confirmacion{
+  text-align: center;
+}
+/* fin estilos formulario */

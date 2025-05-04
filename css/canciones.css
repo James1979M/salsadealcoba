@@ -5,7 +5,9 @@
 }
 body{
     font-family: sans-serif;
+    
 }
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -40,6 +42,7 @@ body{
     font-weight: bold;
     text-decoration: none;
     padding: 8px 12px;
+    cursor: pointer;
 }
 .nav-link:hover{/*Relleno al pasar el mouse
     por el boton*/
@@ -54,13 +57,9 @@ body{
 }
 .nav-menu-item{
     font-size:18px;
-    margin: 0 5px;
+    margin: 0 15px;
     
-    width:max-content
-}
-#li-1,
-#li-2{/*botones inicio y canciones*/
-    margin-right: 170px;
+    width:max-content;
 }
 .nav-toggle{/*Boton tres lineas*/
     display: none;
@@ -73,43 +72,17 @@ display:none;
 }
 
 /*Fin de los estilos del header y el menu de navegación*/
+.custom-swal-popup p{
+    line-height: 45px;
+}
 
-
-dialog{/*mensaje  modal*/
-    border-radius: 10px;
-    width: 300px;
-    box-shadow: 0px 0px 8px gray;
-}
-.contacto{/*mensaje  modal*/
-   text-align: center;
-}
-.cerrar{/*mensaje  modal*/
-    background-color: rgb(7, 7, 240);
-    border-radius: 5px;
-    padding: 3px;
-    color:white;
-    width:70px;
-    margin-top: 15px;
-}
-.cerrar:hover{/*mensaje  modal*/
-    background-color: black;
-    color:white;
-}
-.mensaje{/*mensaje del modal*/
-    padding: 20px;
-    width: 420px;
-    height: 167px;
+.btn-salsa{
+    padding: 15px;
     text-align: center;
-    border:none;
-    margin: 0 auto;
 }
-#abrir-modal{
-    cursor:pointer;
-}
-
-hr{
-    width: 70%;
-    margin: 0 auto;
+a{
+    text-decoration: none;
+    color: blue;
 }
 
 footer{
@@ -138,19 +111,25 @@ input{
     border-radius: 10px;
     
 }
-
+.cont-canciones {
+    padding: 10px;
+}
 #listamusica{
-    font-size: 30px;
-    margin-top: 20px;
-    list-style: none;
-    font-weight: 600;
-    color: #ffffff;
-    text-align:center;
+   
+    display: grid;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-li{
-    margin: 5px 0;
-    list-style: none;
+#listamusica li {
+    /* background: #f0f0f0; */
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
 }
 
 .filter{
@@ -174,231 +153,44 @@ h2{
 .img-salsa{
     text-align: center;
 }
-@media (min-width: 768px) {
-    .cont-canciones
-    #listamusica {/*Del contenedor padre*/
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 1rem;
-    }
-    
-}
-
-/*menor a 1024px*/
-@media (max-width:1024px){
-    .header{
-        display: flex;
-        justify-content: space-between;
-        /*Separa el logo de la lista y lo ubica a la der
-        e izq del header*/
-        width:100%;
-        height:60px;
-        background-color:blue;
-        align-items: center;
-        padding:10px;
-    }
-    .logo{/*clase del div imagen y logo*/
-        display: flex;
-        align-items: center;
-    }
-    .logo-img{
-        height: 50px;
-        border-radius: 50px;
-    }
-    .logo-nombre{
-        font-size: 42px;
-        color: white;
-        font-weight: bold;
-    }
-    .nav-link{
-        color:white;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 8px 12px;
-    }
-    .nav-link:hover{/*Relleno al pasar el mouse
-        por el boton*/
-        background-color: #034574;
-        border-radius:5px;
-        transition: 1s;
-    }
-    .nav-menu{
-        display:flex;
-        list-style: none;/*quita las viñetas de la lista*/
-        margin-right: 5px;
-    }
-    .nav-menu-item{
-        font-size:18px;
-        margin: 0 0px;
-        
-        width:max-content
-    }
-    #li-1,
-    #li-2{/*botones inicio y canciones*/
-        margin-right: 30px;
-    }
-    .nav-burger{
-    width:40px;
-    height: 40px;
-    display:none;
-    
-    }/*Fin de los estilos del header y el menu de navegación*/
-    .entrada-blog .slider-frame ul{
-        margin-top:80px;
+/*Responsive Contendor columnas canciones*/
+@media (min-width: 1025px) {
+    .cont-canciones .listamusica {
+        grid-template-columns: repeat(3, 1fr); /* 2 columnas */
+        column-gap: 5px;
     }
 }
 
-@media (max-width: 820px) {
-    .cont-canciones
-    #listamusica {/*Del contenedor padre*/
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+@media (max-width: 1024px) {
+    .cont-canciones .listamusica {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas */
         column-gap: 1rem;
     }
-    input{
-        width: 80vw;
-        padding: 10px;
-        outline: none;
-        border: 5px solid #CCD1E4;
-        font-weight: 600;
-    }
-  
-}
-
-@media (max-width:768px){
-    .cont-canciones
-    #listamusica {/*Del contenedor padre*/
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 1rem;
-    }
-    input{
-        width: 80vw;
-        padding: 10px;
-        outline: none;
-        border: 5px solid #CCD1E4;
-        font-weight: 600;
-    }
-    .header{
-        display: flex;
-        justify-content: space-between;
-        /*Separa el logo de la lista y lo ubica a la der
-        e izq del header*/
-        width:100%;
-        height:60px;
-        background-color:blue;
-        align-items: center;
-        padding:10px;
-    }
-    .logo{/*clase del div imagen y logo*/
-        display: flex;
-        align-items: center;
-    }
-    .logo-img{
-        height: 46px;
-        border-radius: 50px;
-    }
-    .logo-nombre{
-        font-size: 50px;
-        color: white;
-        font-weight: bold;
-    }
-    .nav-link{
-        color:white;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 8px 12px;
-    }
-    .nav-link:hover{/*Relleno al pasar el mouse
-        por el boton*/
-        background-color: #034574;
-        border-radius:5px;
-        transition: 1s;
-    }
-    .nav-menu{
-        display:flex;
-        list-style: none;
+/*Menu navegacion hamburguesa*/
+    .nav-menu{/*permite que el menu se vea en columna
+        al igual que se se esconda y se visualice*/
+        flex-direction: column;
         margin-right: 10px;
-    }
-    .nav-menu-item{
-        font-size:18px;
-        margin: 0;
-        width:max-content;
-    }
-    #li-3,
-    #li-4{
-        display: none;/*Esconde los btn inicio sesion y registro*/
-    }
-    #li-1,
-    #li-2{
-       margin-right: 80px;
-    }
-    .nav-burger{
-    width:40px;
-    height: 40px;
-    display:none;
-    }/*Fin de los estilos del header y el menu de navegación*/ 
-    footer p{
-        margin: 5px;
-        font-size: 10px;
-      }
-      .col-musica{
-        flex-direction:row;
-        padding:3;
-    }
-    .col-musica h4{
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 540px) {
-    .cont-canciones
-    #listamusica {/*Del contenedor padre*/
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        column-gap: 1rem;
-    }
-} 
-
-/*menor a 426px*/
-
-@media (max-width:426px){
-    .cont-canciones
-    #listacanciones {/*Del contenedor padre*/
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        column-gap: 1rem;
-    }
-    .header{
-        display: flex;
-        justify-content: space-between;
-        /*Separa el logo de la lista y lo ubica a la der
-        e izq del header*/
-        width:100%;
-        height:60px;
-        background-color:blue;
-        align-items: center;
+        background-color:#2c3e50;
+        position: fixed;
+        left: 0;
+        top:60px;
         padding:10px;
+        width:100%;
+        left: 100%;
+        transition: left 1.7s;
+        z-index: 10;
     }
-    .logo{/*clase del div imagen y logo*/
-        display: flex;
-        align-items: center;
-    }
-    .logo-img{
-        height: 50px;
-        border-radius: 50px;
-    }
-    .logo-nombre{
-        font-size: 40px;
-        color: white;
-        font-weight: bold;
+    .nav-menu-item{/*separa los btn verticalmente*/
+        line-height: 40px;
+        margin: 0 auto;/*Centra el menù*/
+        
     }
     .nav-link{
         color:white;
         font-weight: bold;
         text-decoration: none;
         padding: 8px 12px;
-        
     }
     .nav-link:hover{/*Relleno al pasar el mouse
         por el boton*/
@@ -408,34 +200,7 @@ h2{
         color:blue;
         
     }
-    .nav-menu{/*permite que el menu se vea en columna
-        al igual que se se esconda y se visualice*/
-        flex-direction: column;
-        margin-right: 10px;
-        background-color:#2c3e50;
-        position: fixed;
-        left:0;
-        top:60px;
-        padding:10px;
-        width:100%;
-        left: 100%;
-        transition: left 1.5s;
-        align-items: center;
-        justify-content: center;
-    }
-    .nav-menu-item{/*separa los btn verticalmente*/
-        line-height: 40px;
-       
-    }
-    #li-1, 
-    #li-2{
-        margin-left: 80px;
-    }
-    #li-3,
-    #li-4{
-        display:block;/*permite que los btn inicio sesion
-    y registro se vean*/
-    }
+    
     .nav-toggle{
         color: white;
         background:none;
@@ -451,166 +216,25 @@ h2{
         display:block;
         cursor:pointer;
       }/*Fin de los estilos del header y el menu de navegación*/
-    
-    .nav-menu_visible{
-        left:0;
-        z-index: 10;
-        
+      .nav-menu_visible{
+        left:0;/*Permite que el menu desplegable quede a la izquierda*/
     }
-    footer{
-        background-color: blue;
-        color:white;
-        display: flex;
-        justify-content: space-between;
-       }
-        footer p{
-          margin: 5px;
-          font-size: 10px;
-        }
-        footer .f-izq{
-            position: absolute;
-            display: none;
-        }
-        footer .f-der{
-            
-            margin: 0px auto;
-        }
-        .col-musica{
-            flex-direction:column;
-            padding:3;
-        }
-        .col-musica h4{
-            font-size: 10px;
-        }
 }
 
-/*390px*/
-
-@media screen and (max-width:391px){
-    .header{
-        display: flex;
-        justify-content: space-between;
-        /*Separa el logo de la lista y lo ubica a la der
-        e izq del header*/
-        width:100%;
-        height:60px;
-        background-color:blue;
-        align-items: center;
-        padding:10px;
-    }
-    .logo{/*clase del div imagen y logo*/
-        display: flex;
-        align-items: center;
-    }
-    .logo-img{
-        height: 50px;
-        border-radius: 50px;
+/*768*/
+@media (max-width: 768px) {
+    .cont-canciones .listamusica {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+        column-gap: 0.5rem;
     }
     .logo-nombre{
-        font-size: 50px;
+        font-size: 34px;
         color: white;
         font-weight: bold;
+        padding-left: 10px;
+        margin: 0 auto;
     }
-    .nav-link{
-        color:white;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 8px 12px;
-    }
-    .nav-link:hover{/*Relleno al pasar el mouse
-        por el boton*/
-        background-color:white;
-        border-radius:20px;
-        transition: 1s;
-        color:blue;
-        
-    }
-    .nav-menu{/*permite que el menu se vea en columna
-        al igual que se se esconda y se visualice*/
-        flex-direction: column;
-        margin-right: 10px;
-        background-color:#2c3e50;
-        position: fixed;
-        left:0;
-        top:60px;
-        padding:10px;
-        transition: left 0.5s;
-        width:100%;
-        left:100%;
-    }
-    .nav-menu-item{/*separa los btn verticalmente*/
-        line-height: 40px;
-    }
-    
-    #li-3,
-    #li-4{
-        display:block;/*permite que los btn inicio sesion
-    y registro se vean*/
-    }
-   
-    .nav-toggle{
-        color: white;
-        background:none;
-        border:none;
-        display:block;
-      }
-      .nav-burger{
-        width:50px;
-        height: 50px;
-        margin-top: 0px;
-        margin-right: 0px;
-        padding: 5px;
-        display:block;
-      }/*Fin de los estilos del header y el menu de navegación*/
-    
-    .nav-menu_visible{
-        left:0;
-        z-index: 10;
-    }
-
-}
-
-/*menor a 375px*/
-
-@media (max-width:375px){
-    .header{
-        display: flex;
-        justify-content: space-between;
-        /*Separa el logo de la lista y lo ubica a la der
-        e izq del header*/
-        width:100%;
-        height:60px;
-        background-color:blue;
-        align-items: center;
-        padding:10px;
-    }
-    .logo{/*clase del div imagen y logo*/
-        display: flex;
-        align-items: center;
-    }
-    .logo-img{
-        height: 50px;
-        border-radius: 50px;
-    }
-    .logo-nombre{
-        font-size: 50px;
-        color: white;
-        font-weight: bold;
-    }
-    .nav-link{
-        color:white;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 8px 12px;
-    }
-    .nav-link:hover{/*Relleno al pasar el mouse
-        por el boton*/
-        background-color:white;
-        border-radius:20px;
-        transition: 1s;
-        color:blue;
-        
-    }
+/*Menu navegacion hamburguesa*/
     .nav-menu{/*permite que el menu se vea en columna
         al igual que se se esconda y se visualice*/
         flex-direction: column;
@@ -621,65 +245,14 @@ h2{
         top:60px;
         padding:10px;
         width:100%;
-        left:100%;
-        transition: 1s;
+        left: 100%;
+        transition: left 1.7s;
+        z-index: 10;
     }
     .nav-menu-item{/*separa los btn verticalmente*/
         line-height: 40px;
-    }
-    
-    #li-3,
-    #li-4{
-        display:block;/*permite que los btn inicio sesion
-    y registro se vean*/
-    }
-   
-    .nav-toggle{
-        color: white;
-        background:none;
-        border:none;
-        display:block;
-      }
-      .nav-burger{
-        width:50px;
-        height: 50px;
-        margin-top: 0px;
-        margin-right: 0px;
-        padding: 5px;
-        display:block;
-      }/*Fin de los estilos del header y el menu de navegación*/
-    
-    .nav-menu_visible{
-        left:0;
-        z-index: 10;
-    }
-}
-
-/*menor a 320px*/
-@media (max-width:320px){
-    .header{
-        display: flex;
-        justify-content: space-between;
-        /*Separa el logo de la lista y lo ubica a la der
-        e izq del header*/
-        width:100%;
-        height:60px;
-        background-color:blue;
-        align-items: center;
-        padding:10px;
-    }
-    .logo{/*clase del div imagen y logo*/
-        display: flex;
-        align-items: center;
-    }
-    .logo-img{
-        height: 50px;
-        border-radius: 50px;
-    }
-    .logo-nombre{
-        font-size: 50px;
-        color: white;
-        font-weight: bold;
+        margin: 0 auto;/*Centra el menù*/
+        
     }
     .nav-link{
         color:white;
@@ -695,32 +268,7 @@ h2{
         color:blue;
         
     }
-    .nav-menu{/*permite que el menu se vea en columna
-        al igual que se se esconda y se visualice*/
-        flex-direction: column;
-        margin-right: 10px;
-        background-color:#2c3e50;
-        position: fixed;
-        left: 0;
-        top:60px;
-        padding:10px;
-        width:100%;
-        left:100%;
-        transition:1s;
-    }
-    .nav-menu-item{/*separa los btn verticalmente*/
-        line-height: 40px;
-    }
     
-    #li-3,
-    #li-4{
-        display:block;/*permite que los btn inicio sesion
-    y registro se vean*/
-    }
-    #li-1,
-    #li-2{
-       margin-right: 50px;
-    }
     .nav-toggle{
         color: white;
         background:none;
@@ -734,16 +282,149 @@ h2{
         margin-right: 0px;
         padding: 5px;
         display:block;
+        cursor:pointer;
       }/*Fin de los estilos del header y el menu de navegación*/
-    
-    .nav-menu_visible{
-        left:0;
+      .nav-menu_visible{
+        left:0;/*Permite que el menu desplegable quede a la izquierda*/
+    }
+}
+/*425*/
+@media (max-width: 670px) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+        /*Separa el logo de la lista y lo ubica a la der
+        e izq del header*/
+        
+        width:100%;
+        height:60px;
+        background-color:blue;
+        align-items: center;
+        padding:10px;
+        /* z-index: 10;
+        position:fixed; */
+    }
+
+    .cont-canciones .listamusica {
+        grid-template-columns: 1fr; /* 2 columnas */
+        /* column-gap: 0.5rem; */
+    }
+    .logo-nombre{
+        font-size: 28px;
+        color: white;
+        font-weight: bold;
+        padding-left: 10px;
+        margin: 0 auto;
+    }
+/*Menu navegacion hamburguesa*/
+    .nav-menu{/*permite que el menu se vea en columna
+        al igual que se se esconda y se visualice*/
+        flex-direction: column;
+        margin-right: 10px;
+        background-color:#2c3e50;
+        position: fixed;
+        left: 0;
+        top:60px;
+        padding:10px;
+        width:100%;
+        left: 100%;
+        transition: left 1.7s;
         z-index: 10;
     }
-    footer p{
-        margin: 5px;
-        font-size: 8px;
+    .nav-menu-item{/*separa los btn verticalmente*/
+        line-height: 40px;
+        margin: 0 auto;/*Centra el menù*/
+        
+    }
+    .nav-link{
+        color:white;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 8px 12px;
+    }
+    .nav-link:hover{/*Relleno al pasar el mouse
+        por el boton*/
+        background-color:white;
+        border-radius:20px;
+        transition: 1s;
+        color:blue;
+        
+    }
+    
+    .nav-toggle{
+        color: white;
+        background:none;
+        border:none;
+        display:block;
       }
+      .nav-burger{
+        width:50px;
+        height: 50px;
+        margin-top: 0px;
+        margin-right: 0px;
+        padding: 5px;
+        display:block;
+        cursor:pointer;
+      }/*Fin de los estilos del header y el menu de navegación*/
+      .nav-menu_visible{
+        left:0;/*Permite que el menu desplegable quede a la izquierda*/
+    }
+}
+/*Estilos formulario*/
+
+.container-formu {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.titulo-form {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #555;
+}
+
+.input-cancion, .input-artista {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    /* margin-right: 30px; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+}
+
+button {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+#mensaje {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #28a745;
 }
 
   
