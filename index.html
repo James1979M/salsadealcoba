@@ -9,55 +9,97 @@
     <meta name="author" content="James Marin">
     <meta name="audience" content="all">
     <meta name="description" content="Esta página es para los amantes de la buena salsa, salsa brava y salsa de alcoba.">
-    <meta name="keywords" content="Salsa de alcoba, salsa brava, que viva la salsa, canciones, música, Netlify">
+    <meta name="keywords" content="Salsa de alcoba, salsa brava, que viva la salsa, canciones, Netlify">
     <meta name="google-site-verification" content="Lo6K_MLkI_1pE3fGYYqichMfhhI_t3ixmp7sguxn_Gs" />
     <link rel="icon" type="image/x-icon" 
     href="imagenes/salsa.jpg">
-    <link rel="stylesheet" href="css/canciones.css">
+    <link rel="stylesheet" href="css/inicio.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script><!--Script del mensaje modal, linea 10 archivo js-->
-    <title>Salsa De Alcoba</title>
+    <title>Salsa de Alcoba</title>
 </head>
 
 <body>
 
   <header class="header">
     <div class="logo">
-      <img src='imagenes/logo.gif' class="logo-img" alt="logo">
-
-      <a class="nombre-logo" href="inicio.html">
-        <h1 class="logo-nombre">J@mes</h1>
-      </a>
-
+        <img src='imagenes/logo.gif' class="logo-img" alt="logo">
+        <a class="nombre-logo" href="inicio.html">
+          <h1 class="logo-nombre">J@mes</h1>
+        </a>
     </div>
     
     <nav class="nav">
-      <button class="nav-toggle"><img src='imagenes/burger.png' class="nav-burger" alt="logo"></button>
+      <button class="nav-toggle"><img src='imagenes/burger.png' class="nav-burger" alt="burguer"></button>
         <ul class="nav-menu">
-         
-            <li id="li-1"class="nav-menu-item"><a class="nav-link"href="reproductor.html">Reproductor</a></li>
-            <li id="li-2"class="nav-menu-item"><a class="nav-link"href="https://jamessalsa.netlify.app/salsabrava.html">Salsa Brava</a></li>
+          
+            <li id="li-1"class="nav-menu-item"><a class="nav-link"href="https://jamesalsa.netlify.app/reproductor" id="">Reproductor</a></li>
+            <li id="li-2"class="nav-menu-item"><a class="nav-link"href="https://jamesalsa.netlify.app/">Salsa de Alcoba</a></li>
             <li id="li-3"class="nav-menu-item"><a class="nav-link"href="imagenes.html">Imágenes</a></li>
-            <li id="li-5"class="nav-menu-item"><a class="nav-link" id='abrir-modal'>Contacto</a></li>
+            <li id="li-5"class="nav-menu-item"><a class="nav-link" id="abrir-modal">Contacto</a></li>
         </ul>
     </nav>
   </header>
 
-  <main>
-     
-    <h1 class="titulo">Buscador de Canciones</h1>
-      
-    <div class="input">
-        <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
-    </div>
+   <div class="contenedor dos-columnas">
     
-    <div class="cont-canciones"><!--En este div se muestra el contenido del json-->
-        <ul id="listamusica" class="listamusica"></ul>
-    </div>  
+    <article class="entrada-blog">
 
-    <div class="btn-salsa">
-      <a href="https://jamessalsa.netlify.app/salsabrava.html">Ir a la pàgina Salsa Brava</a>
+        <h2 class="titulo">Que Viva la Salsa!!!</h2>
+        
+        <p class="parrafo">Estas son las cuatro canciones mas escuchadas del momento...</p>
+
+        <ul class="lista-canciones">
+          <li class="nombre-cancion">🎵Como un Volcàn (Oscar de Leòn)🎵</li>
+          <li class="nombre-cancion">🎵Hay Algo en Ella (Adalberto Santiago)🎵</li>
+          <li class="nombre-cancion">🎵En la Intimidad (Willie Gonsalez)🎵</li>
+          <li class="nombre-cancion">🎵Te Transformas (Frankie Hernandez)🎵</li>
+        </ul>
+        <a href="index.html"><button class="cancion">Escucha Todas Las Canciones</button></a>
+
+    </article>
+    <!--Carrusel de imagenes-->
+    <article class="entrada-blog">
+      <div class="slider-frame">
+        <ul class="ul-slider">
+            <li class="li-slider"><img class="img-carrusel"src="imagenes/salsa.jpeg" alt="salsa"></li>
+            <li class="li-slider"><img class="img-carrusel"src="imagenes/salsa7.jpg" alt="salsa7"></li>
+            <li class="li-slider"><img class="img-carrusel"src="imagenes/salsa2.jpeg" alt="salsa2"></li>
+            <li class="li-slider"><img class="img-carrusel"src="imagenes/salsa6.jpg" alt="salsa6"></li>
+        </ul>
     </div>
-  </main>
+    </article>
+  </div>
+  
+  <h3 class="top-3">🎵TOP 4🎵</h3><hr>
+  <div class="contenedor-canciones">
+    
+    <article class="col-musica">
+
+      <h4>Como un Volcàn (Oscar de Leòn)</h4>🎵
+      <audio controls play>
+      <source src="canciones/comounvolcan.mp3" type="audio/mp3">
+      </audio>
+
+      <h4>Hay Algo en Ella (Adalberto Santiago)</h4>🎵
+        <audio controls play>
+        <source src="canciones/hayalgoenella.mp3" type="audio/mp3">
+        </audio>
+
+    </article>
+    
+    <article class="col-musica">
+      
+      <h4>En la Intimidad (Willie Gonsalez)</h4>🎵
+        <audio controls play>
+        <source src="canciones/enlaintimidad.mp3" type="audio/mp3">
+        </audio>
+      
+      <h4>Te Transformas (Frankie Hernandez)</h4>🎵
+        <audio controls play>
+        <source src="canciones/tetransformas.mp3" type="audio/mp3">
+        </audio>
+    </article>
+  </div>
   <!--Contenedor del formulario-->
   <div class="container-formu">
     
@@ -74,15 +116,15 @@
     </form>
     
   </div>
-  <footer>
 
-    <p>James Marin Desarrollo Web</p>
-    <p>Comparte la música</p>
+    <footer class="index">
+
+      <p>James Marin Desarrollo Web</p>
+        <p>Comparte la música</p>
         
-  </footer>
-        
-  <script src="js/buscador.js"></script>
-  <script src="js/form-sugerencia.js"></script>
+    </footer>
+
+    <script src="js/form-sugerencia.js"></script>
   <script src="js/menu_modal.js"></script>
 </body>
 </html>
